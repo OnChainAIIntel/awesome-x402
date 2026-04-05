@@ -351,7 +351,7 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 
 Enable AI agents to make autonomous payments.
 - [Strale MCP Server](https://api.strale.io/mcp) - 250+ business data and compliance tools for AI agents via MCP. IBAN validation, VAT format checks, sanctions screening, company lookups, SSL certificate checks, domain reputation, and more. Each capability independently tested with quality scores. x402 USDC micropayments on Base. Also available as REST API.
-
+- [PQS MCP Server](https://github.com/OnChainAIIntel/pqs-mcp-server) - The world's first named AI prompt quality score as an MCP server. Score, optimize, and compare LLM prompts before inference. Free scoring, $0.025 USDC optimize, $1.25 USDC compare (Claude vs GPT-4o). Built on PEEM, RAGAS, G-Eval, MT-Bench. x402-native on Base. ([npm](https://www.npmjs.com/package/pqs-mcp-server)) ([Smithery](https://smithery.ai/servers/onchaintel/pqs))
 ### GPU Inference APIs
 
 x402-native GPU inference APIs that let agents pay autonomously for compute.

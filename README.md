@@ -289,6 +289,8 @@ Full working examples and templates.
 - [x402engine](https://x402engine.app) - Pay-per-call API gateway with 74 endpoints: 44 LLMs, image/video generation, crypto data, web search, code execution, TTS, travel, and IPFS. Multi-chain: USDC on Base, USDm on MegaETH, USDC on Solana. Discovery: [/.well-known/x402.json](https://x402engine.app/.well-known/x402.json) | [/.well-known/agent.json](https://x402engine.app/.well-known/agent.json). ([GitHub](https://github.com/agentc22/x402-engine)) | ([MCP](https://www.npmjs.com/package/x402engine-mcp))
 - [Trading Intelligence API](https://api.signalfuse.co) — Directional crypto trading signals fusing social sentiment, macro regime, and market structure. $0.001–$0.050 USDC per call on Base. 25 free credits per wallet. [Landing](https://signalfuse.co)
 
+- [PQS Grade](https://promptqualityscore.com/api/pqs-grade) - Pre-flight prompt quality scoring for LLMs. Returns composite score (0-100), letter grade (A-F), three framework sub-scores (PEEM, RAGAS, G-Eval), and verdict. Run upstream of any other paid endpoint to filter weak prompts before inference. $0.001 USDC per call on Base. ([MCP Server](https://www.npmjs.com/package/pqs-mcp-server)) | ([Methodology](https://promptqualityscore.com/blog/five-framework-synthesis))
+
 ### Client Examples
 
 - [Axios Client](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/axios) - Automatic payment handling.
